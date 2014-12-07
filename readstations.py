@@ -3,6 +3,7 @@ import xml.etree.ElementTree as etree
 def read_stations():
 	"""
 	Function to read the xml file Stations and return the Stations, latitude and longitude
+	Carissa
 	"""
 	xmlD = etree.parse("Stations.xml")
 	root = xmlD.getroot()
