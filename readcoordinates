@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as etree
 
+
 def read_coordinates():
 	"""
 	Function to read the xml file and print the latitude and longitude
