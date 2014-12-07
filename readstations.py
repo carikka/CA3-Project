@@ -14,9 +14,13 @@ def read_stations():
 	for item in root.findall('Station'):
 		station = item.get('id')
 		Stations.append(station)
+	for item in Stations:
+		del Stations[0]
 	for item in root.findall('Station'):
 		lines = item.find('Line').text
 		line.append(lines)
+	for item in line:
+		del line[0]
 	return Stations, line
 
 #-----------------------------------------------------------------------------------------
