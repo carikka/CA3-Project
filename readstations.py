@@ -1,3 +1,5 @@
+import xml.etree.ElementTree as etree
+
 def read_stations():
 	"""
 	Function to read the xml file Stations and return all the Stations and Corresponding Lines
